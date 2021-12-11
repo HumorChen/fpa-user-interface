@@ -17,7 +17,7 @@ public interface IUserFacade {
      * @param loginParam
      * @return
      */
-    R login(LoginParam loginParam);
+    R login(LoginParam loginParam, String lastOnlineIp);
 
     /**
      * 注册

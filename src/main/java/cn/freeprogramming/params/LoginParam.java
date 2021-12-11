@@ -1,6 +1,6 @@
 package cn.freeprogramming.params;
 
-import cn.freeprogramming.util.CommonPatterns;
+//import cn.freeprogramming.util.CommonPatterns;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -17,9 +17,9 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class LoginParam implements Serializable {
-    @Pattern(regexp = CommonPatterns.REGEX_USERNAME, message = CommonPatterns.DESC_USERNAME)
-    private String username;
-    @Pattern(regexp = CommonPatterns.REGEX_PASSWORD, message = CommonPatterns.DESC_PASSWORD)
+    //@Pattern(regexp = CommonPatterns.REGEX_USERNAME, message = CommonPatterns.DESC_USERNAME)
+    private String phone;
+   // @Pattern(regexp = CommonPatterns.REGEX_PASSWORD, message = CommonPatterns.DESC_PASSWORD)
     private String password;
 
 }
